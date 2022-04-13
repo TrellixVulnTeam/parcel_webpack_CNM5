@@ -1,0 +1,8 @@
+@use 'sass:math';
+
+$containerWidth: 1080;
+$containerPadding: 40;
+
+@mixin wow() {
+   background-color: #161414;
+}

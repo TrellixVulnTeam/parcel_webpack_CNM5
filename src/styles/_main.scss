@@ -1,0 +1,15 @@
+@import '_vars';
+
+body {
+   //width: $containerWidth;
+   //background-image: url(/images/luntik.jpeg);
+   //background-repeat: no-repeat;
+   //background-position: center;
+   @include wow;
+}
+
+.war {
+   width: 300px;
+   height: 200px;
+   background-color: aqua;
+}
