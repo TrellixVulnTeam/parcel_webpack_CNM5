@@ -1,15 +1,117 @@
 @import '_vars';
 
-body {
-   //width: $containerWidth;
-   //background-image: url(/images/luntik.jpeg);
-   //background-repeat: no-repeat;
-   //background-position: center;
-   @include wow;
+.section__main {
+    font-family: Metropolis;
+    // @media (max-width: $breakpoint992) {
+    //     padding-bottom: 400px;
+    // }
+    // @media (max-width: $breakpoint768) {
+    //     padding-bottom: 450px;
+    // }
 }
 
-.war {
-   width: 300px;
-   height: 200px;
-   background-color: aqua;
+.header_img {
+    position: absolute;
+    right: 0;
+    top: 1;
+    max-width: 880px;
+    width: 100%;
+    z-index: -1;
+    @media (max-width: $breakpoint1200) {
+        max-width: 600px;
+    }
+    @media (max-width: $breakpoint992) {
+        top: unset;
+    }
+    @media (max-width: $breakpoint480) {
+        bottom: 50px;
+    }
+}
+
+.main_title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+    max-width: 378px;
+    padding-top: 100px;
+    @media (max-width: $breakpoint1200) {
+        padding-top: 75px;
+    }
+    @media (max-width: $breakpoint992) {
+        padding-top: 50px;
+        font-size: 36px;
+        line-height: 120%;
+        max-width: 100%;
+    }
+}
+
+
+.main_subtitle{
+    font-size: 14px;
+    line-height: 24px;
+    color: #9998A4;
+    margin-top: 15px;
+    max-width: 530px;
+    @media (max-width: $breakpoint992) {
+        max-width: 100%;
+    }
+}
+
+
+.main_btn{
+    color: #2962EF;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.main_stats-title{
+    margin-top: 130px;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #9998A4;
+    @media (max-width: $breakpoint1200) {
+        margin-top: 75px;
+    }
+    @media (max-width: $breakpoint480) {
+        margin-top: 40px;
+    }
+}
+
+.main_stats {
+    display: flex;
+    gap: 80px;
+    margin-top: 25px;
+    @media (max-width: $breakpoint992) {
+        gap: 50px;
+    }
+    @media (max-width: $breakpoint480) {
+        gap: 30px;
+    }
+}
+
+.main_buttons {
+    margin-top: 62px;
+    @media (max-width: $breakpoint480) {
+        margin-top: 20px;
+    }
+}
+
+.main_stats_num {
+    font-size: 36px;
+    line-height: 36px;
+    color: #232427;
+    @media (max-width: $breakpoint480) {
+        font-size: 25px;
+    }
+}
+
+.main_stats_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;   
+    text-transform: uppercase;
+    color: #5E5C6C;
+    margin-top: 12px;
 }

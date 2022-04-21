@@ -1,8 +1,16 @@
 @use 'sass:math';
 
-$containerWidth: 1080;
+$containerWidth: 1080px;
 $containerPadding: 40;
 
-@mixin wow() {
-   background-color: #161414;
-}
+
+$breakpoint480: 479.98 + px;
+$breakpoint768: 767.98 + px;
+$breakpoint992: 991.98 + px;
+$breakpoint1200: 1198.98 + px;
+
+//цвета шрифтов
+$primary: #232427;
+$secondary: #9998A4;
+$neitutal: #2962EF;
+$darkNeitutal: #012799;
