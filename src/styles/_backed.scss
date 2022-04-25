@@ -1,0 +1,43 @@
+@import '_vars';
+
+.backed_container{
+    font-family: Metropolis;
+
+}
+
+.backed_head {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+.backed_title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: $primary;
+    padding-top: 142px;
+}
+
+.backed_subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: $secondary;
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+
+.backed_item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 42px;
+}
+
+.backed_item > img {
+    max-width: 255px;
+}
